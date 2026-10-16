@@ -1,0 +1,52 @@
+{
+ "brands": [
+  "AG",
+  "AXA",
+  "Baloise",
+  "NN",
+  "Vivium",
+  "KBC",
+  "Belfius",
+  "DVV",
+  "P&V",
+  "ING",
+  "Ethias"
+ ],
+ "k": 60,
+ "scenarios": {
+  "base": "Basistoestand (vrije doorstroming)",
+  "spits": "Ochtendspits rond Brussel, Antwerpen, Gent en Luik",
+  "kennedy": "Kennedytunnel (Antwerpen) afgesloten",
+  "vilvoorde": "Viaduct van Vilvoorde (R0) afgesloten",
+  "zone30": "Zone 30 in alle centrumsteden en Brussel"
+ },
+ "sector_count": 20781,
+ "office_count": 7751,
+ "population": 11817897,
+ "sources": [
+  {
+   "name": "Statbel — statistische sectoren 2025",
+   "url": "https://statbel.fgov.be/nl/open-data/statistische-sectoren-2025"
+  },
+  {
+   "name": "Statbel — bevolking per statistische sector 2025",
+   "url": "https://statbel.fgov.be/nl/open-data/bevolking-statistische-sector-12"
+  },
+  {
+   "name": "Statbel — fiscale statistiek van de inkomsten 2023 (gemeente)",
+   "url": "https://statbel.fgov.be/nl/open-data/fiscale-statistiek-van-de-inkomsten"
+  },
+  {
+   "name": "Statbel — bevolking naar leeftijd 2026 (gemeente)",
+   "url": "https://statbel.fgov.be/nl/open-data/bevolking-naar-woonplaats-nationaliteit-burgerlijke-staat-leeftijd-en-geslacht-16"
+  },
+  {
+   "name": "OpenStreetMap (Geofabrik België, wegennet)",
+   "url": "https://download.geofabrik.de/europe/belgium.html"
+  },
+  {
+   "name": "GTFS NMBS, De Lijn, MIVB, TEC (open transport-mirror iRail/FlatTurtle)",
+   "url": "https://gtfs.flatturtle.cloud/"
+  }
+ ]
+}
